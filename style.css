@@ -1,4 +1,41 @@
+/* *{
+  border: solid 1px black;
+} */
+.centered{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.encouragements-left{
+  display: inline-block;
+  margin:0 auto;
+  width: 100%;
+  height: 33%;
+}
+
+.encouragements-left > p{
+  margin-top: 17%;
+  float: right;
+  width:auto;
+}
+
+.encouragements-right{
+  display: inline-block;
+  margin:0 auto;
+  width: 100%;
+  height: 50%;
+}
+.encouragements-right > p{
+  margin-top: 25%;
+  width:auto;
+}
+
+body{
+  font-family: serif;
+}
+
 img{
-  width: 60vw;
+  width: 35vw;
   rotateY: 0deg;
 }
